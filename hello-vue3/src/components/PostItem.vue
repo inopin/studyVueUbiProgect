@@ -1,5 +1,6 @@
 <template>
     <div class="post">
+        <div><strong>Likes</strong> {{ $store.state.likes }}</div>
         <div><strong>Post</strong> {{ post.title }}</div>
         <div><strong>Description</strong> {{ post.body }}</div>
         <div class="post__btns">

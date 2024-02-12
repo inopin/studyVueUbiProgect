@@ -2,8 +2,9 @@
   <div class="navbar">
     <div @click="$router.push('/')"><h3>vue3</h3></div>
     <div class="navbar__btns">
-        <my-button @click="$router.push('/posts')">Posts</my-button>
-        <my-button @click="$router.push('/about')">About</my-button>
+      <my-button @click="$router.push('/store')">Store</my-button>
+      <my-button @click="$router.push('/posts')">Posts</my-button>
+      <my-button @click="$router.push('/about')">About</my-button>
 
     </div>
   </div>

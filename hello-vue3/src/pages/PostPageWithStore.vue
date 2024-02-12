@@ -1,5 +1,6 @@
 <template>
     <div>
+        <h1>{{ $store.getters.doubleLikes }}</h1>
         <h1>Posts Page</h1>
         <my-input
         v-focus
